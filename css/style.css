@@ -451,12 +451,15 @@ div {
   font-family: 'Roboto', sans-serif;
   color: #838994;
   font-size: 16px;
-  margin-top: 25px;
-  letter-spacing: 0.03em;
+  margin-top: 13px;
   -webkit-font-smoothing: antialiased;
+}
+.logo {
+  margin-left: 25px
 }
 .links li {
   margin-left: 25px;
+  margin-right: 25px; 
   display: inline-block;
 }
 .links li:hover {
@@ -468,4 +471,4 @@ div {
   font-weight: 500;
 }
 ul {list-style-type: none;
-    display: inline-block;}
+}
