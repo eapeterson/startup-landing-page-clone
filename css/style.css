@@ -472,3 +472,11 @@ div {
 }
 ul {list-style-type: none;
 }
+.introduction {
+  background-image: url("../images/first-background copy.jpg");
+  background-position: 0 bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45.938rem;
+  overflow: auto;
+}
