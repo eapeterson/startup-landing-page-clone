@@ -433,9 +433,7 @@ th {
   padding: 0;
 }
 
-div {
-  border: 1px solid Chocolate;
-}
+
 
 /*Navigation Section*/
 
@@ -484,11 +482,20 @@ ul {list-style-type: none;}
   height: 45.938rem;
   overflow: auto;
   width: 800px;
-  text-align: center;
 }
 
 h1, h3 {color: white;
-  font-family: 'Roboto', sans-serif;}
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-weight: lighter;}
+
+h1 {margin-top: 12.5rem;
+    margin-bottom: -0.75rem;
+    font-size: 3.125rem;
+}
+
+h3 {margin-top: 1.25rem;
+  font-size: 1.563rem}
 
 .buttons {
   text-shadow: none;
