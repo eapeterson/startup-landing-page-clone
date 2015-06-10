@@ -436,7 +436,9 @@ th {
 div {
   border: 1px solid Chocolate;
 }
+
 /*Navigation Section*/
+
 .top-navigation {
   background-color: #fff;
 }
@@ -470,13 +472,42 @@ div {
   color: #4c5058;
   font-weight: 500;
 }
-ul {list-style-type: none;
-}
+ul {list-style-type: none;}
+
+/*Background Image Section*/
+
 .introduction {
   background-image: url("../images/first-background copy.jpg");
-  background-position: 0 bottom;
+  background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
   height: 45.938rem;
   overflow: auto;
+  width: 800px;
+  text-align: center;
+}
+
+h1, h3 {color: white;
+  font-family: 'Roboto', sans-serif;}
+
+.buttons {
+  text-shadow: none;
+  border-style: none;
+  border-radius: 4px;
+  padding: 1rem 1.5rem;
+  line-height: 1.33;
+  width: 9.688rem;
+  background-color: #f15a29;
+  color: white;
+  font-size: 1.125rem;
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.buttons :hover{
+  background-color: #d9400e;
+  border-color: #cf3d0e;
+  cursor: pointer;
 }
