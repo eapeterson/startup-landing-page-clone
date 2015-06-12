@@ -529,6 +529,7 @@ h2 {
   color: black;
   font-size: 2.75rem;
   font-weight: 300;
+  margin-bottom: 0;
 }
 
 html {
@@ -543,10 +544,12 @@ html {
     display: inline-block;
     /* styles to assist with debugging */
     box-sizing: border-box;
-    height: 4em;
-    flex-direction: row;
-    flex-grow: 1;
+    width: 32%;
+    -webkit-flex-direction: row;
+    -webkit-flex-grow: 1;
     margin: 2.5rem 0px 1.875rem;
+    vertical-align: top;
+    text-align: center;
 }
 
 .devices h3 {
@@ -555,4 +558,5 @@ html {
 
 .cases ul {
   box-sizing: border-box;
+  padding: 0;
 }
